@@ -23,12 +23,12 @@ function Product(props) {
     [num,offset],
   )
 
-  // const showProduct=useCallback(
-  //   () => {
-  //    return showproduct()
-  //   },
-  //   [items],
-  // )
+  const showProduct=useCallback(
+    () => {
+     return showproduct()
+    },
+    [items],
+  )
 
 
   //number array for pagination
@@ -114,7 +114,7 @@ function Product(props) {
         <br/>
         <Link to="/product/create" className="links" >Add Product</Link>
         <p></p>
-       <button onClick={()=>setUpdate(false)} className="menu_button" href="#">Products    </button> 
+       <button onClick={()=>setUpdate(false)} className="menu_button" href="#">Products  {showproduct}  </button> 
       
        <br/>
        <button onClick={logout} className="menu_button" href="#">Logout</button>
