@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "name": "Room Heater",
+      "description": "Orpat",
+      "price": "3199",
+      "currency": "INR",
+      "expiry_date": "2024-12-31",
+      "id": 3
+    },
+    {
+      "name": "iPhone 12",
+      "description": "Apple ",
+      "price": "129999",
+      "currency": "INR",
+      "expiry_date": "2026-10-31",
+      "id": 4
+    },
+    {
+      "name": "Juice",
+      "description": "Tropicana",
+      "price": "99",
+      "currency": "INR",
+      "expiry_date": "2021-06-22",
+      "id": 5
+    },
+    {
+      "name": "Maggi",
+      "description": "Nestle",
+      "price": "10",
+      "currency": "INR",
+      "expiry_date": "2021-09-30",
+      "id": 6
+    },
+    {
+      "name": "Soup",
+      "description": "Knorr",
+      "price": "50",
+      "currency": "INR",
+      "expiry_date": "2021-01-30",
+      "id": 7
+    },
+    {
+      "name": "sdasdas",
+      "description": "asdad",
+      "price": "asdas",
+      "currency": "asdasd",
+      "expiry_date": "2021-01-13",
+      "id": 8
+    },
+    {
+      "name": "asdasd",
+      "description": "asdas",
+      "price": "asdasd",
+      "currency": "asdas",
+      "expiry_date": "2021-01-26",
+      "id": 9
+    },
+    {
+      "name": "asda",
+      "description": "asdas",
+      "price": "asdas",
+      "currency": "asd",
+      "expiry_date": "2021-01-13",
+      "id": 10
+    },
+    {
+      "name": "anish",
+      "description": "sasad",
+      "price": "sadas",
+      "currency": "asdasd",
+      "expiry_date": "2021-01-31",
+      "id": 11
+    },
+    {
+      "name": "anish",
+      "description": "asdasd",
+      "price": "asdas",
+      "currency": "asdasd",
+      "expiry_date": "2021-01-23",
+      "id": 12
+    },
+    {
+      "name": "sefsdfs",
+      "description": "dsfsd",
+      "price": "dsfsd",
+      "currency": "dsfdsfdsf",
+      "expiry_date": "2021-01-24",
+      "id": 13
+    },
+    {
+      "name": "andgfdg",
+      "description": "sgfdsg",
+      "price": "fdgdfg",
+      "currency": "fdgfdg",
+      "expiry_date": "2021-01-29",
+      "id": 14
+    },
+    {
+      "name": "sdfsdfsdfdsfdsfdsf",
+      "description": "dsfdsfdsfs",
+      "price": "sdfsd",
+      "currency": "fsdfsdf",
+      "expiry_date": "2021-01-30",
+      "id": 15
+    }
+  ]
+}
