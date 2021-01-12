@@ -64,9 +64,9 @@ render()
                 {history.push("/logout")}} />
                 </Suspense>
                 </ErrorBoundary>
-               
+                <ErrorBoundary>
                 <Head val={"footer"} />
-                
+                </ErrorBoundary>
                 </div>
             )
 
