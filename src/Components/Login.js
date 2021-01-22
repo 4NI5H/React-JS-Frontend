@@ -1,37 +1,37 @@
-import { useState,useRef, useEffect, Component } from 'react'
-import axios from 'axios'
-import {Redirect} from 'react-router-dom'
+import React,{ useRef} from 'react'
 
-function Login(props){
 
-    //    const[loggedin,setloggedin]=useState(false)
-       const user=useRef();
-       const Password=useRef();
 
-       function submit()
-       {
-           if(user.current.value&&Password.current.value)
-           {
-            props.onmove()
-           }
-         
-       }
 
-        return (
-            <div>
+function Login(props) {
+
+    const user = useRef();
+    const Password = useRef();
+   
+
+    function submit() {
+        if (user.current.value && Password.current.value) {
+            const username=user.current.value
+            props.onmove(username)
+        }
+
+    }
+
+    return (
+
+       <div>
             <h3>Login Page</h3>
-            <form  className="Form"  onSubmit={submit}> 
-            <input className="Input" type ="text"  placeholder="userName"  ref={user}/>
-            <input className="Input" type="password"  placeholder="Password"  ref={Password}/>
-            <button className="Button">Login</button>
+            <form className="Form" onSubmit={submit}>
+                <input className="Input" type="text" placeholder="userName" ref={user} />
+                <input className="Input" type="password" placeholder="Password" ref={Password} />
+                <button className="Button">Login</button>
             </form>
             </div>
-        )
-        }
- 
-        
-        
-export default Login
+           
+    )
+}
+
+export default (Login)
 
 
     // constructor() {
@@ -45,7 +45,7 @@ export default Login
     //     error:""
     // }
     // this.submit= this.submit.bind(this)
-    
+
     // }   
 
     // this.transition=this.transition.bind(this)
@@ -72,14 +72,14 @@ export default Login
                 //     localStorage.setItem("token",token)
                 //     setloggedin(!loggedin)
                 // }
-            
+
                 // catch(err)
                 // {
                 //     console.log("Error")
                 //     }
-                    
+
                 // }}
-            
+
     //    }
 
         // useEffect(()=>{

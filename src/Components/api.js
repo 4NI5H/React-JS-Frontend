@@ -31,8 +31,8 @@ export const fetchToken=async ()=>{
  //fetch product api call
 export const fetchProducts=async (offset,limit)=>{
    try{ console.log("calling  product api")
-   const token=localStorage.getItem('token')
- 
+  //  const token=localStorage.getItem('token')
+   console.log("offset.....",offset,limit)
 
   const off=Number(Math.floor(offset/limit)+1)
    return axios.get(`http://localhost:3000/products?_page=${off}&_limit=${limit}`,
@@ -57,7 +57,7 @@ export const AddProduct=async (newproduct)=>{
   console.log("ADD product api called..............",newproduct)
 
   try{
-    const token=localStorage.getItem("token")
+    // const token=localStorage.getItem("token")
      return axios.post("http://localhost:3000/products", {
       name:newproduct.name,
       description:newproduct.description,
@@ -109,7 +109,7 @@ export const deleteProduct=async (id)=>{
 export const updateProduct=async (updatedproduct)=>{
   try{ 
     console.log("update product api.........  "+updatedproduct)
-    const token=localStorage.getItem("token")
+    // const token=localStorage.getItem("token")
     
      return axios.put(`http://localhost:3000/products/${updatedproduct.id}`, {
       name:updatedproduct.name,

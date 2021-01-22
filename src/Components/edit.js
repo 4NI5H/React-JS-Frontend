@@ -1,11 +1,10 @@
-import { useState,useRef } from 'react'
-import axios from 'axios'
-import {Redirect} from 'react-router-dom'
+import { useRef } from 'react'
+
 
 
 function Edit (props){
 
-    const Id=useRef();
+   
     const Name=useRef();
     const Description=useRef();
     const Price=useRef();

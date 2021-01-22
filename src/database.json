@@ -17,100 +17,60 @@
       "id": 4
     },
     {
-      "name": "Juice",
-      "description": "Tropicana",
-      "price": "99",
-      "currency": "INR",
-      "expiry_date": "2021-06-22",
-      "id": 5
-    },
-    {
-      "name": "Maggi",
-      "description": "Nestle",
-      "price": "10",
-      "currency": "INR",
-      "expiry_date": "2021-09-30",
-      "id": 6
-    },
-    {
-      "name": "Soup",
-      "description": "Knorr",
-      "price": "50",
-      "currency": "INR",
-      "expiry_date": "2021-01-30",
-      "id": 7
-    },
-    {
-      "name": "sdasdas",
-      "description": "asdad",
-      "price": "asdas",
-      "currency": "asdasd",
-      "expiry_date": "2021-01-13",
-      "id": 8
+      "name": "sds",
+      "description": "SdS",
+      "price": "sds",
+      "currency": "sdSD",
+      "expiry_date": "2021-01-22",
+      "id": 26
     },
     {
       "name": "asdasd",
-      "description": "asdas",
-      "price": "asdasd",
-      "currency": "asdas",
-      "expiry_date": "2021-01-26",
-      "id": 9
-    },
-    {
-      "name": "asda",
-      "description": "asdas",
-      "price": "asdas",
-      "currency": "asd",
-      "expiry_date": "2021-01-13",
-      "id": 10
-    },
-    {
-      "name": "anish",
-      "description": "sasad",
-      "price": "sadas",
-      "currency": "asdasd",
-      "expiry_date": "2021-01-31",
-      "id": 11
-    },
-    {
-      "name": "anish",
-      "description": "asdasd",
-      "price": "asdas",
-      "currency": "asdasd",
+      "description": "sadsad",
+      "price": "sadsa",
+      "currency": "sadasd",
       "expiry_date": "2021-01-23",
-      "id": 12
+      "id": 27
     },
     {
-      "name": "sefsdfs",
-      "description": "dsfsd",
-      "price": "dsfsd",
-      "currency": "dsfdsfdsf",
-      "expiry_date": "2021-01-24",
-      "id": 13
-    },
-    {
-      "name": "andgfdg",
-      "description": "sgfdsg",
-      "price": "fdgdfg",
-      "currency": "fdgfdg",
-      "expiry_date": "2021-01-29",
-      "id": 14
-    },
-    {
-      "name": "sdfsdfsdfdsfdsfdsf",
-      "description": "dsfdsfdsfs",
-      "price": "sdfsd",
-      "currency": "fsdfsdf",
-      "expiry_date": "2021-01-30",
-      "id": 15
-    },
-    {
-      "name": "Apple",
-      "description": "Iphone 12",
-      "price": "asdasd",
+      "name": "Macbook Pro",
+      "description": "Apple ",
+      "price": "249000",
       "currency": "INR",
-      "expiry_date": "2021-02-06",
-      "id": 16
+      "expiry_date": "2021-01-23",
+      "id": 28
+    },
+    {
+      "name": "SAA",
+      "description": "CXZC",
+      "price": "ZXC",
+      "currency": "ZXCXZ",
+      "expiry_date": "2021-01-14",
+      "id": 29
+    },
+    {
+      "name": "sdasda",
+      "description": "sadas",
+      "price": "asdas",
+      "currency": "sadsad",
+      "expiry_date": "2021-01-22",
+      "id": 30
+    },
+    {
+      "name": "Desktop",
+      "description": "Lenovo",
+      "price": "1231121",
+      "currency": "INR",
+      "expiry_date": "2021-01-29",
+      "id": 32
+    },
+    {
+      "name": "sdsgfdbg",
+      "description": "drgfhtgj",
+      "price": "rgfvb",
+      "currency": "dxgfchh",
+      "expiry_date": "2021-01-23",
+      "id": 33
     }
   ]
 }

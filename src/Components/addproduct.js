@@ -1,10 +1,9 @@
-import { useState,useRef } from 'react'
-import axios from 'axios'
-import {Redirect} from 'react-router-dom'
+import { useRef } from 'react'
+
 
 export default function AddProduct(props){
 
-    
+    console.log("props.....",props.location.state.off,props.location.state.lim)
 
     const Name=useRef();
     const description=useRef();
@@ -39,9 +38,10 @@ export default function AddProduct(props){
 
         if(name&&Description&&Price&&Currency&&ExpiryDate)
         {
-        console.log(name,description,price,currency)
-            
+        console.log(name,description,price,currency)   
          props.onadd(newproduct);
+         console.log("function called...")
+         props.onshowProducts(props.location.state.off,props.location.state.lim);
            
         }
     }
